@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registration form</title>
+</head>
+<body>
+    <h1 align="center">
+        Student Registration Form
+    </h1>
+    <table align="center" cellpadding="5px">
+        <tr>
+        <td>Student name:-</td>
+        <td>
+            <input type="text" size="20" placeholder="Student name">
+        </td>
+        </tr>
+    
+        <td>Father's name:-</td>
+        <td>
+            <input type="text" size="20" placeholder="Student name">
+        </td>
+       <tr>
+            <td>City:-</td>
+            <td>
+            <select>
+                <option>......Select city.....</option>
+                <option>Ara</option>
+                <option>Ara</option>
+                <option>Ara</option>
+            </select>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                Course:-
+            </td>
+            <td>
+                <input type="radio" value="course" name="cousre">BCA
+                 <input type="radio"  value="course" name="cousre">MCA
+            </td>
+        </tr>
+    </table>
+</body>
+</html>
